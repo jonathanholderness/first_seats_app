@@ -30,7 +30,7 @@ We store the following in Amazon DynamoDB in **AWS region eu-west-2 (London)**:
 - the travel date you asked us to watch
 - whether that date is still being watched or already marked on sale
 - timestamps (`createdAt`, `lastCheckedAt`)
-- an **Expo push token**, if notification permission was granted and token registration succeeded. If not, this file is empty and we do not send a push for that watch.
+- an **Expo push token**, if notification permission was granted and token registration succeeded. If not, this field is empty and we do not send a push for that watch.
 
 ### Technical data
 
